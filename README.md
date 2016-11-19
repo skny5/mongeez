@@ -1,3 +1,36 @@
+### Note: This is a fork of https://github.com/mongeez/mongeez
+
+It uses a different maven groupId. To use the snapshot:
+
+```xml
+<dependency>
+    <groupId>com.github.adangel.org.mongeez</groupId>
+    <artifactId>mongeez</artifactId>
+    <version>0.9.7-adangel-SNAPSHOT</version>
+</dependency>
+```
+
+With the snapshot repository:
+
+```xml
+<repositories>
+    <repository>
+        <id>sonatype-nexus-snapshots</id>
+        <name>Sonatype Nexus Snapshots</name>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+```
+
+
+
+
 ### What is mongeez?
 
 mongeez allows you to manage changes of your mongo documents and propagate these changes in sync with your code changes when you perform deployments.

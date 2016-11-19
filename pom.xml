@@ -9,7 +9,7 @@
     
     <groupId>com.github.adangel.org.mongeez</groupId>
     <artifactId>mongeez</artifactId>
-    <version>0.9.7-adangel</version>
+    <version>0.9.8-adangel-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Mongeez</name>

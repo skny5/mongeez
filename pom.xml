@@ -28,6 +28,7 @@
         <connection>scm:git:git@github.com:adangel/mongeez.git</connection>
         <developerConnection>scm:git:git@github.com:adangel/mongeez.git</developerConnection>
         <url>git@github.com:adangel/mongeez.git</url>
+        <tag>adangel-fork</tag>
     </scm>
 
     <developers>

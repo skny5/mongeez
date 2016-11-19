@@ -7,14 +7,14 @@
         <version>7</version>
     </parent>
     
-    <groupId>org.mongeez</groupId>
+    <groupId>com.github.adangel.org.mongeez</groupId>
     <artifactId>mongeez</artifactId>
     <version>0.9.7-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Mongeez</name>
-    <description>An opensource project for mongodb change management</description>
-    <url>http://github.com/secondmarket/mongeez</url>
+    <description>FORK - An opensource project for mongodb change management</description>
+    <url>http://github.com/adangel/mongeez</url>
 
     <licenses>
         <license>
@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:secondmarket/mongeez.git</connection>
-        <developerConnection>scm:git:git@github.com:secondmarket/mongeez.git</developerConnection>
-        <url>git@github.com:secondmarket/mongeez.git</url>
+        <connection>scm:git:git@github.com:adangel/mongeez.git</connection>
+        <developerConnection>scm:git:git@github.com:adangel/mongeez.git</developerConnection>
+        <url>git@github.com:adangel/mongeez.git</url>
     </scm>
 
     <developers>

@@ -1,5 +1,8 @@
 # Mongeez #
 
+### Version 0.9.7-adangel ###
+* Allow to configure a MongoClient instance directly instead of Mongo.
+
 ### Version 0.9.6 ###
 * added context parsing to formatted javascript changesets [#54](https://github.com/mongeez/mongeez/pull/54)
 

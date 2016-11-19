@@ -1,12 +1,27 @@
 ### Note: This is a fork of https://github.com/mongeez/mongeez
 
-It uses a different maven groupId. To use the snapshot:
+It uses a different maven groupId.
+
+Latest release:
 
 ```xml
 <dependency>
     <groupId>com.github.adangel.org.mongeez</groupId>
     <artifactId>mongeez</artifactId>
-    <version>0.9.7-adangel-SNAPSHOT</version>
+    <version>0.9.7-adangel</version>
+</dependency>
+```
+Maven repo for releases - https://repo.maven.apache.org/maven2/com/github/adangel/org/mongeez
+
+
+
+To use the snapshot:
+
+```xml
+<dependency>
+    <groupId>com.github.adangel.org.mongeez</groupId>
+    <artifactId>mongeez</artifactId>
+    <version>0.9.8-adangel-SNAPSHOT</version>
 </dependency>
 ```
 

@@ -80,7 +80,7 @@ repo1.maven.org - http://repo1.maven.org/maven2/org/mongeez/mongeez
 
 Hopefully this thing is routinely green. Travis-CI monitors new code to this project and tests it on a variety of JDKs.
 
-[![Build Status](https://travis-ci.org/mongeez/mongeez.png?branch=master)](https://travis-ci.org/mongeez/mongeez)
+[![Build Status](https://travis-ci.org/skny5/mongeez.png?branch=adangel-fork)](https://travis-ci.org/skny5/mongeez)
 
 ## License
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0

@@ -75,8 +75,7 @@ public class MongeezTest {
 
         mongeez.process();
 
-        assertEquals(db.getCollection("mongeez").count(), 5);
-
+        assertEquals(db.getCollection("mongeez").count(), 7);
         assertEquals(db.getCollection("organization").count(), 2);
         assertEquals(db.getCollection("user").count(), 2);
     }

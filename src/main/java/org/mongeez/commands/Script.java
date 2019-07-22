@@ -18,6 +18,7 @@ import org.mongeez.dao.MongeezDao;
  * @since 5/3/11
  */
 public class Script {
+    private String language = "javascript";
     private String body;
 
     public String getBody() {
@@ -28,7 +29,15 @@ public class Script {
         this.body = body;
     }
 
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
     public void run(MongeezDao dao) {
-        dao.runScript(body);
+        dao.runScript(language, body);
     }
 }
